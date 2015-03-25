@@ -521,6 +521,12 @@ h1, h2, h3, h4 {
   font-weight: 300;
 }
 
+.wiki h1 {font-size: 38px; border-bottom: 1px dotted #bbb;}
+.wiki h2 {font-size: 30px;}
+.wiki h3 {font-size: 22px;}
+.wiki h4 {font-size: 16px;}
+h4 {border: none}
+
 a, a:link, a:visited {
   color: #d92e47;
   -webkit-transition: color 0.5s;
@@ -720,7 +726,9 @@ div.issue {
 #update fieldset.tabular legend small,
 #update fieldset.tabular div,
 #update fieldset.tabular p {
+  /*
   display: none;
+  */
 }
 #update fieldset.tabular.show-children legend small {
   display: inline;
